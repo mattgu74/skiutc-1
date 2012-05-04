@@ -1,0 +1,15 @@
+== SkiUTC ==
+
+Author Matthieu Guffroy
+This website is licensed under AGPL license.
+This website is powered by opa technology, see http://opalang.org
+
+After your first git clone don't forget to do "mkdir _build_o" before to launch
+a "make run" ;)
+
+After "make run" the website will be available on http://localhost:10080/skiutctest/
+
+To stop it's easy : "make stop"
+
+SkiUTC est une association de l'université de technologie de compiègne,
+qui organise un voyage au ski pour les étudiants.

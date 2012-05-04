@@ -1,0 +1,12 @@
+04/05/12 13:50:40.93 [info]: MongoDriver.open localhost:27017 auth=[]
+04/05/12 13:50:40.93 [info]: MongoDriver.connect bufsize=51200 addr=localhost port=27017 log=true
+04/05/12 13:50:40.93 [error]: MongoDriver.srpool Can't get pool Got exception Scheduler.Connection_closed
+04/05/12 13:50:40.93 [error]: DbGen/Mongo (failure) Read from skiutc.news set doesn't returns anything
+04/05/12 13:50:40.93 [error]: File "stdlib/database/mongo/db.opa", line 606, characters 6-32, (606:6-606:32 | 22192-22218)
+@fail: DbSet build error
+04/05/12 14:01:11.82 [info]: MongoDriver.open localhost:27017 auth=[]
+04/05/12 14:01:11.82 [info]: MongoDriver.connect bufsize=51200 addr=localhost port=27017 log=true
+04/05/12 14:01:11.82 [error]: MongoDriver.srpool Can't get pool Got exception Scheduler.Connection_closed
+04/05/12 14:01:11.82 [error]: DbGen/Mongo (failure) Read from skiutc.news set doesn't returns anything
+04/05/12 14:01:11.82 [error]: File "stdlib/database/mongo/db.opa", line 606, characters 6-32, (606:6-606:32 | 22192-22218)
+@fail: DbSet build error

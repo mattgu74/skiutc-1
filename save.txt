@@ -1,0 +1,28 @@
+Render.opa
+
+ /* @todo
+                { 
+                  if (user_is_logged) XmlConvert.of_alpha(User.loginbox())
+                  else
+                    <>
+                     <a class="button" href="{myCas.login_url()}"><strong>Etudiant UTC</strong></a>
+                     <br/>
+                     <br/>         
+                     <a class="button" onclick={function(_) {
+                                                Dom.toggle(#login_invite)
+                     }}><strong>Invité</strong></a>
+                     <br/>
+                     <div id="login_invite" style={[Css_build.display({css_none})]}>
+                      {User.loginbox()}
+                     </div>
+                    </>
+                }
+        */
+        
+menu.opa
+ /*  
+                    {
+                        if (User.is_logged()) <td><a href="mon_compte.html"><div class="{class("mon_compte.html")}">Mon Compte</div></a></td>
+                        else <></>
+                    }
+                */
